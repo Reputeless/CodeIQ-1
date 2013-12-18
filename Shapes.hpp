@@ -1,7 +1,7 @@
 ﻿
 # include <Siv3D.hpp>
 
-namespace s3d
+namespace codeIQ
 {
 	/**
 	*	長方形の頂点配列を返します。
