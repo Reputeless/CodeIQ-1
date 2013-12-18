@@ -1,6 +1,6 @@
 ﻿# include "Shapes.hpp"
 
-namespace s3d
+namespace codeIQ
 {
 	std::vector<Vec2> CreateRect(double x, double y, double w, double h)
 	{
