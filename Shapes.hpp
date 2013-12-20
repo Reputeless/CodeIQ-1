@@ -4,8 +4,8 @@ namespace codeIQ
 {
 	/**
 	*	長方形の頂点配列を返します。
-	*	@param x 長方形の左上座標
-	*	@param y 長方形の右上座標
+	*	@param x 長方形の左上 X 座標
+	*	@param y 長方形の左上 Y 座標
 	*	@param w 長方形の幅
 	*	@param h 長方形の高さ
 	*	@return 長方形の頂点配列
@@ -62,6 +62,7 @@ namespace codeIQ
 
 	/**
 	*	正 N 角形の頂点配列を返します。
+	*	@param n 頂点の数
 	*	@param r 外接円の半径
 	*	@param angle 時計方向への回転角度[ラジアン], 0 のとき頂点が 12 時の位置と重なる
 	*	@param center 正 N 角形の中心座標
@@ -77,6 +78,7 @@ namespace codeIQ
 
 	/**
 	*	五光星 (☆) の頂点配列を返します。
+	*	http://ja.wikipedia.org/wiki/%E4%BA%94%E8%8A%92%E6%98%9F
 	*	@param r 外接円の半径
 	*	@param angle 時計方向への回転角度[ラジアン], 0 のとき頂点が 12 時の位置と重なる
 	*	@param center 五光星の中心座標
